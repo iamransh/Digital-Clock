@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=360");
+    background-size: cover;
+}
+
+#box {
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+    opacity: 0.3;
+    box-shadow: 0 0 15px 0 black;
+}
+
+#hour,
+#minute,
+#second,
+#d {
+    width: 15%;
+    height: 70%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    box-shadow: 0 0 5px 0 black;
+}
+
+#d {
+    width: 10%;
+    height: 45%;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    opacity: 1;
+}
+
+#x {
+    font-size: 25px;
+}
+
+#s,
+#x {
+    color: yellow;
+}
